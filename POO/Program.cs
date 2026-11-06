@@ -27,13 +27,26 @@
 
 //* Exercício 4
 
-Funcionario funcionario1 = new Funcionario();
-funcionario1.Nome = "Luanda";
-funcionario1.Cargo = "Desenvolvedora";
-funcionario1.AumentarSalario(5000);
-funcionario1.ConsultarSalario();
+// Funcionario funcionario1 = new Funcionario();
+// funcionario1.Nome = "Luanda";
+// funcionario1.Cargo = "Desenvolvedora";
+// funcionario1.AumentarSalario(5000);
+// funcionario1.ConsultarSalario();
 
-funcionario1.Salario = 6000;
+// funcionario1.Salario = 6000;
 //! A propriedade ou o indexador "Funcionario.Salario" não pode ser usado neste contexto porque o acessador set é inacessível
-// o código acima não compila, pois a propriedade Salario tem um set privado, ou seja, só pode ser alterada dentro da própria classe Funcionario. Pra alterar o salário, é necessario usar o método AumentarSalario.
+//* o código acima não compila, pois a propriedade Salario tem um set privado, ou seja, só pode ser alterada dentro da própria classe Funcionario. Pra alterar o salário, é necessario usar o método AumentarSalario.
 
+//* Exercício 5
+
+Livro livro1 = new Livro();
+livro1.MostrarDados();
+
+Livro livro2 = new Livro("Dom Casmurro");
+livro2.MostrarDados();
+
+Livro livro3 = new Livro("1984", "George Orwell");
+livro3.MostrarDados();
+
+Livro livro4 = new Livro("O Senhor dos Anéis", "J.R.R. Tolkien", 1200);
+livro4.MostrarDados();
